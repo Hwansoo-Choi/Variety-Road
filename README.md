@@ -1,7 +1,7 @@
 # Scenario2-AutonomousDriving
 Novelty situation solution in real world and simulator
 
-Please refer to the readme files in Python-Client, Python-Util directories for detailed explanation
+Please refer to the readme files in Python-Client, Python-Util directories for detailed explanation in Korean
 
 
 ## Dataset download
