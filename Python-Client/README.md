@@ -190,7 +190,7 @@ rgb 와 seg에 있는 사진 파일을 따로 비디오로 묶어줍니다.
 lidar fps 변경시에는 속도 계산 함수의 변경이 필요합니다.
 
 ## 8. lidar_control.py
-manual_control.py와 기본적으로 비슷하지만, 전방의 obstacle과 거리가 가까워질때, 회피하는 기능을 넣었습니다.
+manual_control.py와 기본적으로 비슷하지만, 전방의 obstacle과 거리가 가까워질때 회피하는 기능을 매우 간단하게 구현하여 넣었습니다.
 
 LiDAR sensor 사용시에는 client fps와 LiDAR fps를 맞춰주는 것이 필수적입니다. (아닐시에는 한 프레임 안에 특정 방향만 감지 가능)
 
@@ -208,8 +208,3 @@ LiDAR sensor만으로는 실선, 점선의 구분이 어려워, 차선 유지(�
 자세한 알고리즘은 다음 링크를 참고해주세요.
 
 https://drive.google.com/file/d/1xlqQSHlE9xqsv9OkMZ6fsIy01o5cg8KT/view?usp=sharing
-
-이전 버전의 segmentation fault는 완화되었지만,
-현재 pygame과 thread 관련 client가 꺼지는 버그 등이 있습니다.
-
-장기적으로 사용에 어려움이 없어졌을 때 manual_control.py와 합치는 것을 목표로 하고 있습니다.
